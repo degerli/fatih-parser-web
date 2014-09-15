@@ -12,6 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>Beklenmedik bir hata oluştu</h1>
     </body>
 </html>

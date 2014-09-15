@@ -19,7 +19,7 @@
     ettik.</p>
     
     <p><b>S:</b> FatihParser bilinen eksiklikleri nelerdir?</p>
-    <p><b>C:</b> Hangi birini sayalım? Henüz ele alamadığı pek çok durum var.</p>
+    <p><b>C:</b> Hangi birini sayalım? Henüz ele alamadığı pek çok durum var. Projeye <a href="https://github.com/hrzafer/fatih-parser">GitHub üzerinden</a> katkıda bulunabilirsiniz. </p>
     
     </s:layout-component>
 </s:layout-render>

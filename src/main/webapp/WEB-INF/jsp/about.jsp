@@ -8,6 +8,7 @@
         <p> <a href="#03">FatihParser nasıl çalışır?</a>  </p>
         <p> <a href="#04">Türkmenceden Bazı Örnekler</a>  </p>
         <p> <a href="#05">FatihParser projesi nasıl ortaya çıktı ve gelecek için neler planlanıyor?</a>  </p>
+        <p> <a href="#06">FatihParser kaynak kodlarına erişmem mümkün mü?</a>  </p>
         
         
         <a name="01"/>
@@ -162,7 +163,7 @@
        <h3>FatihParser projesi nasıl ortaya çıktı ve gelecek için neler planlanıyor?</h3>
            
        <p>Bir yüksek Lisans 
-       <a href="http://nlp.ceng.fatih.edu.tr/tr/wp-content/uploads/2011/09/A-Generic-Syntactic-Parser-for-Turkic-Languages.pdf">tez çalışması</a>
+       <a href="https://www.dropbox.com/s/yxcw35pt2vd48gt/A%20Generic%20Syntactic%20Parser%20for%20Turkic%20Languages.pdf?dl=0">tez çalışması</a>
        olarak başlayan FatihParser projesi,
        Türkî diller için genel bir sözdizimsel çözümleyici geliştirmek hefedi ile 
        başladı. Bir süre sonra <a href="http://arge.fatih.edu.tr/">Fatih 
@@ -174,6 +175,11 @@
        zamanla istatistiksel verileri de kullanabilmesidir. Böylelikle 
        cümleler için çok daha az sayıda ve isabetli çözümler (tahliller) bulunabilecektir.      
        </p>
+
+        <a name="06"/>
+        <h3>FatihParser kaynak kodlarına erişmem mümkün mü?</h3>
+
+        <p>FatihParser projesi Eylül-2014 itibariyle açık kaynak olmuştur. Kaynak kodlara <a href="https://github.com/hrzafer/fatih-parser">GitHub üzerinden</a> erişilebilir.</p>
        
     </s:layout-component>
 </s:layout-render>

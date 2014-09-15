@@ -37,7 +37,7 @@
             </div>
         </div>
         <div id="footer" class="footer">
-            © 2008 - 2012 Fatih Üniversitesi Doğal Dil İşleme Grubu.
+            © 2008 - 2014 Fatih Üniversitesi Doğal Dil İşleme Grubu.
             Uygulama <a target="_blank" href="http://www.mozilla.org/tr/firefox/fx/">Mozilla Firefox</a> ile sorunsuz çalışmaktadır. 
         </div>
     </div>
