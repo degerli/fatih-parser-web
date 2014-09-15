@@ -1,0 +1,241 @@
+/* CSS Reset   
+----------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align:top /* baseline*/;
+    background: transparent;
+}
+
+body
+{
+    font-family: Verdana, Helvetica, Sans-Serif;
+    font-size: 14px;
+    background-color: #fff; /*#193c74;*/
+    color: #666;
+}
+
+h1,h2,h3,h4,h5,h6,p 	{ margin-bottom: 10px; }
+h1,h2,h3,h4,h5,h6 		{ color: #006699; }
+h1 		{ font-size: 2em; }
+h2 		{ font-size: 1.5em; }
+h3 		{ font-size: 1.2em; }
+h4 		{ font-size: 1.1em; }
+h5	 	{ font-size: 1em; }
+h6 		{ font-size: 1em; }
+
+#code{
+ font-family: monospace;
+ font-size: 16px;
+}
+
+#wrapper
+{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.demo
+{
+    background-color: #006699;
+    color: #fff;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+
+.demo span
+{
+    color: #3da1ff;
+}
+
+.demo a
+{
+    text-decoration: none;
+}
+
+.demo a:hover
+{
+    color: #aaa;
+    text-decoration: underline;
+}
+
+.footer
+{
+    background-color: #006699;
+    color: #fff;
+    padding: 10px 0;
+    /*font-size: 24px;*/
+    /*font-weight: bold;*/
+    /*text-transform: uppercase;*/
+    text-align: center;
+}
+
+.footer span
+{
+    color: #3da1ff;
+}
+
+.footer a
+{
+    text-decoration: none;
+}
+
+.footer a:hover
+{
+    color: #aaa;
+    text-decoration: underline;
+}
+
+/* Place demo css below here */
+#content
+{
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+    overflow: auto;
+}
+
+#tab-container
+{
+    float: left;
+    margin: 50px 0 0 0;
+    width: 126px;
+}
+#tab-container ul
+{
+    list-style: none;
+    text-align: center;
+}
+#tab-container ul li
+{
+    border-top: 1px solid #666;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+    border-left: 8px solid #666;
+    background-color: #ddd;
+    margin: 8px 0;
+}
+#tab-container ul li a,
+#tab-container ul li a:visited
+{
+    text-decoration: none;
+    color: #666;
+    display: block;
+    padding: 15px 5px;
+}
+#tab-container ul li:hover
+{
+    border-left: 8px solid #333;
+}
+#tab-container ul li a:hover
+{
+    color: #000;
+}
+#tab-container ul li.selected
+{
+    border-right: none;
+    background-color: #fff;
+    border-left: 8px solid #006699;
+}
+
+#tab-container ul li.notselected
+{
+    border-right: 1px solid #666;
+    background-color: #ddd;
+    border-left: 8px solid #666;
+}
+
+#main-container
+{
+    min-height: 500px;
+    margin: 0 0 0 125px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #888;
+}
+
+table.parsetable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+        width: 700px;
+        
+}
+table.parsetable th {
+	background:#b5cfd2 url('cell-blue.jpg');
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+}
+table.parsetable td {
+	background:#dcddc0 url('cell-grey.jpg');
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #999999;
+        
+        
+}
+.tree{
+    max-width: 500px;
+    text-align: left;
+}
+.draw{
+    width: 10px;
+}
+.validation{
+    width: 10px;
+}
+
+table.formtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.formtable th {
+	border-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+table.formtable td {
+	border-width: 0px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+table.formtable label {
+        float: right;
+}
+
+table.formtable .inputtext {
+        float: right;
+        width: 550px;
+}
+
+table.formtable .button {
+        float: right;
+}
