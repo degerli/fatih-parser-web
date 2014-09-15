@@ -4,7 +4,7 @@
     <s:layout-component name="body">
         
     <h4>Yrd.Doç.Dr. Atakan Kurt</h4>
-    <p><strong>E-posta:</strong> atakanhoca@gmail.com> </p>
+    <p><strong>E-posta:</strong> atakanhoca (at) gmail.com </p>
     <p><strong>Web:</strong> <a href="http://ce.istanbul.edu.tr/atakan/">ce.istanbul.edu.tr/atakan/</a></p>
 
     <br/><br/>
